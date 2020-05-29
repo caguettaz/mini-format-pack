@@ -49,11 +49,11 @@ def outdent(editor):
 
 
 def formatBlockPre(editor):
-    editor.web.eval("wrap('<pre class="code">', '</pre>')")
+    editor.web.eval("""wrap('<pre class="code">', '</pre>')""")
 
 
 def formatBlockCode(editor):
-    editor.web.eval("wrap('<code class="code">', '</code>')")
+    editor.web.eval("""wrap('<code class="code">', '</code>')""")
 
 
 def insertHorizontalRule(editor):
