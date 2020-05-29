@@ -23,6 +23,11 @@
             "hotkey": "ctrl+."
         },
         {
+            "name": "formatBlockKbd",
+            "tooltip": "Insert keyboard key",
+            "hotkey": "ctrl+shift+k"
+        },
+        {
             "name": "insertHorizontalRule",
             "tooltip": "Insert horizontal line",
             "hotkey": "ctrl+shift+alt+_"

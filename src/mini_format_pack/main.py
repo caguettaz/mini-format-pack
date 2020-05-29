@@ -51,6 +51,8 @@ def outdent(editor):
 def formatBlockPre(editor):
     editor.web.eval("setFormat('formatBlock', 'pre')")
 
+def formatBlockKbd(editor):
+    editor.web.eval("wrap('<kbd>', '</kbd>')")
 
 def insertHorizontalRule(editor):
     editor.web.eval("setFormat('insertHorizontalRule')")
