@@ -25,7 +25,7 @@
         {
             "name": "formatBlockCode",
             "tooltip": "Format code",
-            "hotkey": "ctrl+`"
+            "hotkey": "ctrl+,"
         },
         {
             "name": "insertHorizontalRule",
